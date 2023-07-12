@@ -10,7 +10,7 @@ const CustomModal = ({ id, setShowPopup }) => {
   return (
     <div className="modalBackground modal-content">
       <div className="modalContainer bg-black">
-        <h2 className="fw-bold">user-{singleUser[0].id}: {singleUser[0].name}</h2>
+        <h2 className="fw-bold">Name: {singleUser[0].name}</h2>
         <p>Email: {singleUser[0].email}</p>
         <p>Phone: {singleUser[0].number}</p>
         <p> Age: {singleUser[0].age}</p>
