@@ -61,7 +61,7 @@ const Create = () => {
         <div class="mb-3">
           <label class="form-label">Age</label>
           <input
-            type="text"
+            type="number"
             name="age"
             class="form-control"
             onChange={getUserData}

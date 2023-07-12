@@ -98,14 +98,15 @@ const Read = () => {
                 style={{ maxWidth: "33rem" }}
               >
                 <div className="card-body">
+                  <h6 className="card-title fw-bold">UserId: {ele.id}</h6>
                   <h5 className="card-title fw-bold">Name: {ele.name}</h5>
-                  <h6 className="card-subtitle mb-2 text-muted">
+                  {/* <h6 className="card-subtitle mb-2 text-muted">
                     Email: {ele.email}
                   </h6>
                   <h6 className="card-subtitle mb-2 text-muted">
                     Phone: {ele.number}
-                  </h6>
-                  <p className="card-text">Gender: {ele.gender}</p>
+                  </h6> */}
+                  {/* <p className="card-text">Gender: {ele.gender}</p> */}
                   <button
                     className="card-link btn btn-warning border shadow"
                     onClick={() => [setId(ele.id), setShowPopup(true)]}
